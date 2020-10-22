@@ -1,0 +1,17 @@
+{
+    "name": "Heroku Docker DAF CLI Server",
+    "description": "Minimal deployment of daf-cli server to Heroku with Docker",
+    "repository": "https://github.com/uport-project/daf-deployments",
+    "keywords": [
+      "node",
+      "daf",
+      "identity",
+      "verifiable-credentials"
+    ],
+    "env": {
+      "APP_URL": {
+        "description": "The url for which your DID will be based on",
+        "value": "https://appname.herokuapp.com"
+      }
+    }
+  }
